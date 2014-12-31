@@ -1,10 +1,14 @@
+# ignore OSX clutter
 .DS_*
-/bin
-/gen
-/.checkstyle
-/.classpath
-/.project
-/.settings
-/.metadata
-/lint.xml
+
+# ignore some local context
+/local.properties
+
+# ignore gradle artifacts
+/.gradle
+/build
+
+# ignore Studio artifacts
+/.idea
+/*.iml
 
